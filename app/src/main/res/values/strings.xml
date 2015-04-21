@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Gimmick FlashLight</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home">FlashLight</string>
+    <string name="action_settings">Action Settings</string>
+
+</resources>

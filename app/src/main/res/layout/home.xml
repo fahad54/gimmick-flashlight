@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/HomeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EE0000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/MainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".6"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <ImageButton
+            android:id="@+id/FlashLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="@color/backgroud_color_off"
+            android:src="@drawable/led_off" />
+
+    </LinearLayout>
+
+<com.gimmick.flashlight.CarouselGallery
+    android:id="@+id/main_carousel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1" />
+    
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="dashboard">
+        <item name="android:numColumns">2</item>
+    </style>
+
+</resources>
